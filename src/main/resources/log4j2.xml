@@ -22,11 +22,12 @@
             <!--<AppenderRef ref="Console"/>-->
             <!--<AppenderRef ref="RollingFile"/>-->
         <!--</AsyncLogger>-->
+        <logger name="io.mycat.backend.datasource.PhysicalDatasource" level="INFO"></logger>
+        <logger name="io.mycat.sqlengine.SQLJob" level="INFO"></logger>
+       
         <asyncRoot level="debug" includeLocation="true">
-
             <AppenderRef ref="Console" />
             <AppenderRef ref="RollingFile"/>
-
         </asyncRoot>
     </Loggers>
 </Configuration>
