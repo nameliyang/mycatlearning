@@ -37,7 +37,7 @@
 	</tableRule>
 	<tableRule name="mod-long">
 		<rule>
-			<columns>id</columns>
+			<columns>org_id</columns>
 			<algorithm>mod-long</algorithm>
 		</rule>
 	</tableRule>

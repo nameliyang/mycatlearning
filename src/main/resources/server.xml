@@ -91,7 +91,7 @@
 
 	<user name="root" defaultAccount="true">
 		<property name="password">liyang</property>
-		<property name="schemas">OrderDB</property>
+		<property name="schemas">labeldb</property>
 		
 		<!-- 表级 DML 权限设置 -->
 		<!-- 		
@@ -106,7 +106,7 @@
 
 	<user name="user">
 		<property name="password">user</property>
-		<property name="schemas">OrderDB</property>
+		<property name="schemas">labeldb</property>
 		<property name="readOnly">true</property>
 	</user>
 
